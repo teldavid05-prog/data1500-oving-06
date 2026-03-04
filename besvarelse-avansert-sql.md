@@ -14,7 +14,7 @@
     FROM Ansatt;
     ```
     **Forklaring:**
-    *   *... Skriv din forklaring her ...*
+    *I denne spørringer får vi navn, etternavn og årslønn til alle ansatte i rangering fra høyest til lavest.*
 
 2.  **Spørring:**
     ```sql
@@ -27,7 +27,7 @@
     JOIN Kategori K ON V.KatNr = K.KatNr;
     ```
     **Forklaring:**
-    *   *... Skriv din forklaring her ...*
+    *   *Denne spørringen kobler sammen vare og kategori ved å bruke JOIN. ON er får p bestemme hvordan tabellene skal kobles sammen. Siden en vare har et kategorinummer og kategorien har samme nummer, da hører de sammen. AVG dette bergner gjennomsnittsprisen per kategori og beholder alle radene. PARTION BY deler opp radene i grupper basert på kategori og regner ut gjennomsnittet innen vær gruppe.*
 
 ### Del 2: Lag SQL-spørringer
 
